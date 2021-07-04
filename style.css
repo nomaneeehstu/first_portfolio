@@ -18,7 +18,6 @@ h1{
 .half-with{
     width: 50%;
     padding-left: 2%;
-    text-align:justify;
 }
 .half-with img{
     width: 70%;
@@ -40,4 +39,36 @@ h1{
     background-repeat:no-repeat;
     background-position:right ;
     margin-right: ;
+}
+.orange-color{
+    color: orange;
+}
+.experience-item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
+    text-align:justify;
+    border-radius: 20px;
+
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat ;
+    background-position: left;
+}
+#web-dev-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(185, 27, 9), rgb(59, 59, 70));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
