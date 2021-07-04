@@ -11,13 +11,14 @@ h1{
 .b{
     color: tomato;
 }
-section{
+.flexible-cantainer{
     display: flex;
     margin-bottom: 150px;
 }
 .half-with{
     width: 50%;
     padding-left: 2%;
+    text-align:justify;
 }
 .half-with img{
     width: 70%;
